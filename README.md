@@ -9,15 +9,19 @@ The goal is not only to build a predictive model, but also to interpret coeffici
 ---
 
 ## Multiple Linear Regression
-The analysis uses a multiple linear regression model:
+
+The analysis uses a multiple linear regression model of the form:
+
 $$
 Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + \cdots + \beta_pX_p + \varepsilon
 $$
+
 where:
-$Y$ represents the student's exam score
-$\beta_0$ is the intercept
-$\beta_i$ represents the effect of predictor $X_i$
-$\varepsilon$ is the random error term
+
+- $Y$ represents the exam score
+- $\beta_0$ is the intercept
+- $\beta_i$ represents the effect of predictor $X_i$
+- $\varepsilon$ is the random error term
 
 ---
 
@@ -75,7 +79,7 @@ Key observations:
 ---
 
 ### Numerical Relationships
-<img src="images/numerical_relationships.png" width="900">
+<img src="images/numerical_relationships.png" width="1000">
 
 Key observations:
 - Exam scores increase with attendance and study hours
@@ -85,7 +89,7 @@ Key observations:
 ---
 
 ### Categorical Predictors
-<img src="images/categorical_relationships.png" width="900">
+<img src="images/categorical_relationships.png" width="1000">
 
 Key observations:
 - Higher parental involvement is associated with higher exam scores
@@ -96,7 +100,7 @@ Key observations:
 ---
 
 ## Multiple Linear Regression 
-<img src="images/ols_regression_results.png" width="900">
+<img src="images/ols_regression_results.png" width="1000">
 
 Model Fit Summary:
 - R-squared: 0.727
@@ -112,7 +116,7 @@ $$
 \hat{\beta} \pm t^* \cdot SE(\hat{\beta})
 $$
 
-<img src="images/regression_coeffidients.png" width="900">
+<img src="images/regression_coefficients.png" width="900">
 
 Key findings:
 - The final multiple linear regression model explained approximately 72.7% of the variation in exam scores
@@ -124,7 +128,7 @@ Key findings:
 
 ### Standardized Coefficients
 
-<img src="images/standardized_coeffidients.png" width="900">
+<img src="images/standardized_coefficients.png" width="900">
 
 Key findings:
 - Attendance was the strongest positive predictor
@@ -137,7 +141,7 @@ Key findings:
 
 ### Residual Analysis
 
-<img src="images/model_diagnostics.png" width="900">
+<img src="images/model_diagnostics.png" width="1000">
 
 Key findings:
 - Residuals were generally centered around zero
@@ -148,7 +152,7 @@ Key findings:
 ---
 
 ### Investigate Large Residuals and Influential Points
-<img src="images/influence.png" width="900">
+<img src="images/influence.png" width="1000">
 
 Key findings:
 - Influence analysis suggested that these unusual observations did not dominate the overall regression results based on Cook's distance.
@@ -157,7 +161,7 @@ Key findings:
 
 ### Multicollinearity Check Using VIF
 
-<img src="images/vif.png" width="900">
+<img src="images/vif.png" width="500">
 
 Key findings:
 - The VIF values are all below 3, indicating no evidence of serious multicollinearity among the predictors
