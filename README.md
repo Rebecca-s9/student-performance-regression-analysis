@@ -54,7 +54,6 @@ Predictors include:
 ## Methods
 
 This project applies:
-
 - Exploratory data analysis
 - Correlation analysis
 - Multiple linear regression
@@ -68,7 +67,7 @@ This project applies:
 ## Exploratory Data Analysis (EDA)
 
 ### Correlation Structure
-<img src="images/correlation_heatmap.png" width="900">
+<img src="images/correlation_heatmap.png" width="700">
 
 Key observations:
 - Attendance showed the strongest correlation with exam score (0.58)
@@ -79,7 +78,7 @@ Key observations:
 ---
 
 ### Numerical Relationships
-<img src="images/numerical_relationships.png" width="1000">
+<img src="images/numerical_relationships.png" width="900">
 
 Key observations:
 - Exam scores increase with attendance and study hours
@@ -89,9 +88,8 @@ Key observations:
 ---
 
 ### Categorical Predictors
-<img src="images/categorical_relationships.png" width="1000">
+<img src="images/categorical_relationships.png" width="900">
 
-Key observations:
 - Higher parental involvement is associated with higher exam scores
 - Better access to resources is associated with better performance
 - Higher motivation levels generally correspond to higher scores
@@ -100,7 +98,7 @@ Key observations:
 ---
 
 ## Multiple Linear Regression 
-<img src="images/ols_regression_results.png" width="1000">
+<img src="images/ols_regression_results.png" width="900">
 
 Model Fit Summary:
 - R-squared: 0.727
@@ -141,9 +139,8 @@ Key findings:
 
 ### Residual Analysis
 
-<img src="images/model_diagnostics.png" width="1000">
+<img src="images/model_diagnostics.png" width="900">
 
-Key findings:
 - Residuals were generally centered around zero
 - Q-Q plots indicated deviations from normality in the upper tail
 - Several large positive residuals were present
@@ -152,18 +149,16 @@ Key findings:
 ---
 
 ### Investigate Large Residuals and Influential Points
-<img src="images/influence.png" width="1000">
+<img src="images/influence.png" width="900">
 
-Key findings:
 - Influence analysis suggested that these unusual observations did not dominate the overall regression results based on Cook's distance.
 
 ---
 
 ### Multicollinearity Check Using VIF
 
-<img src="images/vif.png" width="500">
+<img src="images/vif.png" width="300">
 
-Key findings:
 - The VIF values are all below 3, indicating no evidence of serious multicollinearity among the predictors
 
 ---
