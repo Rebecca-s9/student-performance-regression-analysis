@@ -117,7 +117,6 @@ $$
 <img src="images/regression_coefficients.png" width="900">
 
 Key findings:
-- The final multiple linear regression model explained approximately 72.7% of the variation in exam scores
 - Positive peer influence, internet access, and proximity to school were associated with higher exam scores
 - Low parental involvement and low access to resources showed the strongest negative effects
 - Confidence intervals remained relatively narrow due to the large sample size
